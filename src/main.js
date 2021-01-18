@@ -1,6 +1,5 @@
 /**
  * Server instance
- * @memberof @livup/athena
  */
 import Koa from 'koa'
 import cors from 'koa2-cors'

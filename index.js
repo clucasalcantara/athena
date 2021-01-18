@@ -1,7 +1,6 @@
 /**
- * Synapse entry file
+ * Athena entry file
  * API to handle data operations on Brian schema
- * @memberof core
  */
 /* eslint-disable no-global-assign, import/no-unassigned-import */
 require('dotenv').config()
