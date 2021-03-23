@@ -2,11 +2,11 @@ import {
   addCustomer,
   updateCustomer,
   deleteCustomer,
-  getAll,
+  getAllCustomers,
   getCustomerById,
 } from './actions'
 
 export default {
-  queries: { getAll, getCustomerById },
+  queries: { getAllCustomers, getCustomerById },
   mutations: { addCustomer, updateCustomer, deleteCustomer },
 }

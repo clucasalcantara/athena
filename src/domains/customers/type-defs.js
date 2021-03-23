@@ -15,7 +15,7 @@ export const types = `
 
 export const queries = `
   getCustomerById(id: String): Customer
-  getAll: [Customer]
+  getAllCustomers: [Customer]
 `
 
 export const mutations = `

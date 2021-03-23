@@ -100,11 +100,11 @@ export const updateCustomer = async (_, { id, data: values }) => {
  * @param {Object} configParams
  * @return {Promise} retrieveData response
  */
-export const getAll = async () => {
+export const getAllCustomers = async () => {
   logger.info('Getting all customers...')
 
   const conn = await rethinkly()
-  const customers = await data.get(conn, 'restaurants')
+  const customers = await data.get(conn, 'customers')
 
   return customers
 }
